@@ -1,0 +1,769 @@
+/* 
+* name : global.css
+* author : Mahesh Rodrigo
+*/
+
+/* --- start of general styles --- */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+div, p, span, h1, h2, h3, ul, li {
+	margin: 0;
+	padding: 0;	
+}
+
+ul, li {
+	list-style-type: none;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+a {
+	color: #5C6773;
+	outline: none;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+/* --- start of general classes --- */
+
+.invisible {
+	display: none;
+}
+
+.left-float {
+	float: left!important;
+}
+
+.right-float {
+	float: right!important;
+}
+
+.dark-text {
+	color: #212121;
+}
+
+.light-text {
+	color: #FFFFFF;
+}
+
+.left-30-margin {
+	margin-left: 30px;
+}
+
+.top-90-margin {
+	margin-top: 90px;
+}
+
+.top-30-margin {
+	margin-top: 30px;
+}
+
+.top-20-margin {
+	margin-top: 20px;
+}
+
+.font-300 {
+	font-weight: 300!important;
+}
+	
+.font-400 {
+	font-weight: 400!important;
+}
+
+.border-format {
+	border-radius: 0;
+}
+
+/* --- end of general classes --- */
+
+/* --- end of general styles --- */
+
+/* --- start of framesheet --- */
+
+#framesheet {
+	width: 100%;
+}
+
+#main-wrapper {
+	margin: 0 auto;
+}
+
+/* --- start of header --- */
+
+header {
+	margin: 20px auto;
+	overflow: hidden;
+	width: 920px;
+}
+
+header h1 {
+	background: url('../images/logo.png') 0 0 no-repeat;
+	background-size: 70px 50px;
+	float: left;
+}
+
+header h1 a {
+	display: block;
+	height: 50px;
+	width: 70px;
+}
+
+header .rm-container {
+	float: right;
+	margin-top: 16px;
+}
+
+header nav {}
+
+header nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+header nav ul li {
+	float: left;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	line-height: 20px;
+	margin-right: 40px;
+}
+
+header nav ul li a {
+	color: #FF3465;
+}
+
+header nav ul li:nth-child(4) {
+	margin-right: 0;
+}
+
+/* --- end of header --- */
+
+/* --- start of main  --- */
+
+/* --- start of page based classes --- */
+
+.home-bg {
+	background: #039ce5;
+}
+
+.home-pic {
+	background: url('../images/main-banner.png') 0 0 no-repeat;
+	background-size: 400px;
+}
+
+.sub-page-bg {
+	background: #ebeff2;
+}
+
+.contact-pic {
+	background: url('../images/banner-2.png') 0 0 no-repeat;
+	background-size: 400px;
+}
+
+/* --- end of page based classes --- */
+
+.content {
+	width: 100%;
+}
+
+.content-wrapper {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 960px;
+}
+
+.data-column {
+	width: 500px;
+}
+
+.illustrator-column {
+	height: 400px;
+	width: 400px;
+}
+
+.main-title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 44px;
+	font-weight: 600;
+}
+
+.sub-title {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;	
+}
+
+.normal-text {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+}
+
+.more-button {
+	background: #FFFFFF;
+	border-radius: 3px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.25);
+	color: #039ce5;
+	display: block;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 42px;
+	padding: 0 16px;
+	text-align: center;
+	width: 110px;
+}
+
+/* --- start of work --- */
+
+.work-skill-panel {
+	margin: 50px;
+	width: 860px;
+}
+
+ul.skill-set {
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+ul.skill-set li {
+	float: left;
+	height: 145px;
+	margin: 0 20px 20px 0;
+	width: 120px;
+}
+
+ul.skill-set li span {
+	display: block;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	padding-top: 120px;
+	text-align: center;
+	width: 100%;
+}
+
+/* --- start of front end ul --- */
+
+.front-end li:nth-child(1) {
+	background: url('../images/skills/html.png') center center no-repeat;
+	background-size: 60px;
+}
+
+.front-end li:nth-child(2) {
+	background: url('../images/skills/css.png') center center no-repeat;
+	background-size: 60px;
+}
+
+.front-end li:nth-child(3) {
+	background: url('../images/skills/js.png') center center no-repeat;
+	background-size: 60px;
+}
+
+.front-end li:nth-child(4) {
+	background: url('../images/skills/ag.png') center center no-repeat;
+	background-size: 60px;
+}
+
+.front-end li:nth-child(5) {
+	background: url('../images/skills/react.png') center center no-repeat;
+	background-size: 60px;
+}
+
+.front-end li:nth-child(6) {
+	background: url('../images/skills/jq.png') center center no-repeat;
+	background-size: 60px;
+}
+
+.front-end li:nth-child(7) {
+	background: url('../images/skills/sass.png') center center no-repeat;
+	background-size: 60px;
+}
+
+.front-end li:nth-child(8) {
+	background: url('../images/skills/less.png') center center no-repeat;
+	background-size: 60px;
+}
+
+/* --- end of front end ul --- */
+
+/* --- start of back end ul --- */
+
+.back-end li:nth-child(1) {
+	background: url('../images/skills/php.png') center center no-repeat;
+	background-size: 60px;
+}
+
+.back-end li:nth-child(2) {
+	background: url('../images/skills/asp.png') center center no-repeat;
+	background-size: 60px;
+}
+
+.back-end li:nth-child(3) {
+	background: url('../images/skills/node.png') center center no-repeat;
+	background-size: 60px;
+}
+
+.back-end li:nth-child(4) {
+	background: url('../images/skills/mysql.png') center center no-repeat;
+	background-size: 60px;
+}
+
+.back-end li:nth-child(5) {
+	background: url('../images/skills/mongo.png') center center no-repeat;
+	background-size: 60px;
+}
+
+/* --- end of back end ul --- */
+
+/* --- start of cms ul --- */
+
+.cms li:nth-child(1) {
+	background: url('../images/skills/wp.png') center center no-repeat;
+	background-size: 60px;
+}
+
+.cms li:nth-child(2) {
+	background: url('../images/skills/ci.png') center center no-repeat;
+	background-size: 60px;
+}
+
+.cms li:nth-child(3) {
+	background: url('../images/skills/laravel.png') center center no-repeat;
+	background-size: 60px;
+}
+
+/* --- end of cms ul --- */
+
+/* --- start of vcs ul --- */
+
+.vcs li:nth-child(1) {
+	background: url('../images/skills/git.png') center center no-repeat;
+	background-size: 60px;
+}
+
+/* --- end of vcs ul --- */
+
+/* --- start of dt ul --- */
+
+.dt li:nth-child(1) {
+	background: url('../images/skills/ps.png') center center no-repeat;
+	background-size: 60px;
+}
+
+.dt li:nth-child(2) {
+	background: url('../images/skills/ai.png') center center no-repeat;
+	background-size: 60px;
+}
+
+/* --- end of cms ul --- */
+
+ul.portfolio {
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+ul.portfolio li {
+	border: 3px solid #ebebeb;
+	float: left;
+	height: 44px;
+	margin: 0 32px 26px 0;
+	padding-top: 140px;
+	width: 140px;
+}
+
+ul.portfolio li span {
+	background: #F2F2F2;
+	display: block;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 0;
+	text-align: center;
+}
+
+ul.portfolio li span a {
+	color: #039be5;
+	text-decoration: none;
+}
+
+ul.portfolio li span a:hover {
+	text-decoration: none;
+}
+
+/* --- start of logos ul --- */
+
+ul.logos li:nth-child(1) {
+	background: #FFFFFF url('../images/work/logos/ccn-thumb.jpg') center 14px no-repeat;
+	background-size: 120px;
+}
+
+ul.logos li:nth-child(2) {
+	background: #FFFFFF url('../images/work/logos/mr-thumb.png') center 14px no-repeat;
+	background-size: 120px;
+}
+
+ul.logos li:nth-child(3) {
+	background: #FFFFFF url('../images/work/logos/g2w-thumb.png') center 11px no-repeat;
+	background-size: 120px;
+}
+
+ul.logos li:nth-child(4) {
+	background: #FFFFFF url('../images/work/logos/se-thumb.jpg') center 5px no-repeat;
+	background-size: 140px;
+}
+
+ul.logos li:nth-child(5) {
+	background: #FFFFFF url('../images/work/logos/mlc-thumb.jpg') center 5px no-repeat;
+	background-size: 140px;
+	margin-right: 0;
+}
+
+/* --- end of logos ul --- */
+
+/* --- start of websites + admin panels ul --- */
+
+ul.websites,
+ul.admin-panels {
+	margin: 20px 0;
+}
+
+ul.admin-panels li,
+ul.websites li {
+	background: #FFFFFF;
+	border-bottom: 1px solid #ebebeb;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 24px;
+	overflow: hidden;
+	width: 100%;
+}
+
+ul.admin-panels li span.company-name,
+ul.websites li span.company-name {
+	float: left;
+	padding: 5px 12px;
+}
+
+ul.admin-panels li span.project-year,
+ul.websites li span.project-year {
+	float: right;
+	padding: 5px 12px;
+}
+
+span.work-done {
+	color: #999999;
+	clear: both;
+	display: block;
+	overflow: hidden;
+	padding: 0 12px 10px 12px;
+	width: calc(100% - 24px);
+}
+
+span.work-done em {
+	display: block;
+	float: left;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 16px;
+	margin-right: 25px;
+	padding-left: 25px;
+}
+
+span.work-done em.ld {
+	background: url('../images/ld.png') 0 0 no-repeat;
+	background-size: 16px;
+}
+
+span.work-done em.uid {
+	background: url('../images/ui.png') 0 0 no-repeat;
+	background-size: 16px;
+}
+
+span.work-done em.fed {
+	background: url('../images/fe.png') 0 0 no-repeat;
+	background-size: 16px;
+}
+
+span.work-done em.bed {
+	background: url('../images/be.png') 0 0 no-repeat;
+	background-size: 16px;
+}
+
+.employer {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 10px;
+	font-style: italic;
+	font-weight: 300;
+	line-height: 22px;
+	padding-left: 15px;
+}
+
+.web-active {
+	background: url('../images/site-link.png') right top no-repeat;
+	background-size: 16px;
+	padding: 0 25px 2px 0;
+}
+
+/* --- end of websites + admin panels ul --- */
+
+/* --- end of work --- */
+
+/* --- start of contacts --- */
+
+.contact-box {
+	margin: 60px;
+	width: 440px;
+}
+
+.contact-box p {
+	margin: 20px 0;
+}
+
+ul.contacts {
+	list-style-type: none;
+}
+
+ul.contacts li {
+	color: #212121;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 50px;
+	margin-bottom: 2px;
+	padding-left: 70px;	
+}
+
+ul.contacts li:nth-child(1) {
+	background: url('../images/email.png') 15px 9px no-repeat;	
+	background-size: 35px;
+}
+
+ul.contacts li:nth-child(2) {
+	background: url('../images/phone.png') 15px 9px no-repeat;
+	background-size: 35px;	
+}
+
+ul.contacts li:nth-child(3) {
+	background: url('../images/resume.png') 15px 9px no-repeat;	
+	background-size: 35px;
+}
+
+/* --- end of contacts --- */
+
+/* --- start of footer --- */
+
+footer {
+	margin: 40px auto;
+	overflow: hidden;
+	width: 960px;
+}
+
+footer p {
+	color: #5C6773;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: center;
+}
+
+footer a.linkedin {
+	background: url('../images/li-icon.jpg') 0 0 no-repeat;
+	background-size: 40px;
+	display: block;
+	height: 40px;
+	margin: 20px auto;
+	width: 40px;
+}
+
+/* --- end of footer --- */
+
+/* --- end of framesheet --- */
+
+/* --- start of media queries --- */
+
+@media only screen and (max-width: 960px) {
+
+	/* --- start - null desktop general classes --- */
+
+	.left-float,
+	.right-float {
+		float: none!important;
+	}
+
+	.top-90-margin,
+	.top-30-margin,
+	.top-20-margin,
+	.left-30-margin {
+		margin: 0;
+	}
+
+	.border-format {
+		border-radius: 0;
+	}
+
+	/* --- end - null desktop general classes --- */
+
+	footer,
+	header {
+		margin: 15px 2%;
+		width: 96%;
+	}
+
+	#main-wrapper,
+	.content-wrapper {
+		width: 100%;
+	}
+
+	.work-skill-panel,
+	.contact-box,
+	.data-column {
+		margin: 25px 5%;
+		width: 90%;
+	}
+
+	.illustrator-column {
+		background-position: center;
+		width: 100%;
+	}
+
+	.normal-text,
+	.main-title {
+		margin-bottom: 25px;
+		text-align: center;
+	}
+
+	.more-button {
+		margin: 25px auto;
+		padding: 15px;
+		text-align: center;
+		width: 40%;
+	}
+
+	ul.skill-set li {
+		height: 110px;
+		width: 90px;
+	}
+
+	ul.skill-set li span {
+		padding-top: 85px;
+	}
+
+	.front-end li:nth-child(1),
+	.front-end li:nth-child(2),
+	.front-end li:nth-child(3),
+	.front-end li:nth-child(4),
+	.front-end li:nth-child(5),
+	.front-end li:nth-child(6),
+	.front-end li:nth-child(7),
+	.front-end li:nth-child(8),
+	.back-end li:nth-child(1),
+	.back-end li:nth-child(2),
+	.back-end li:nth-child(3),
+	.back-end li:nth-child(4),
+	.back-end li:nth-child(5),
+	.cms li:nth-child(1),
+	.cms li:nth-child(2),
+	.cms li:nth-child(3),
+	.vcs li:nth-child(1),
+	.dt li:nth-child(1),
+	.dt li:nth-child(2) {
+		background-size: 45px;
+	}
+
+	ul.logos li:nth-child(3) {
+		margin: 0 34px 26px 0;
+	}
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+	header {
+		margin: 0;
+		width: 100%;
+	}
+
+	header h1 {
+		margin: 15px;
+	}
+
+	header nav ul {
+		background: #2d384a;
+	}
+
+	header nav ul li {
+		float: none;
+		margin-right: 0;
+		padding: 15px;
+	}
+
+	header nav ul li a {
+		color: #FFFFFF;
+	}
+
+	header nav ul li a:hover {
+		color: #bdc0c6;
+	}
+
+	header .rm-container {
+		float: none;
+		margin-top: 0;
+	}
+
+	ul.skill-set {
+		margin-bottom: 20px;
+	}
+
+	ul.logos li:nth-child(3),
+	ul.portfolio li {
+		margin: 0 22px 22px 0;
+	}
+
+}
+
+
+@media only screen and (max-width: 550px) {
+
+	span.work-done em {
+		float: none;
+		margin: 0 0 10px 0;
+	}
+
+
+	span.work-done em:last-child {
+		float: none;
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (max-width: 275px) {
+
+	ul.portfolio-list span.company-name,
+	ul.portfolio-list span.project-year {
+		padding: 2px 5%!important;
+		width: 90%!important;
+	}
+
+}
+
+
+/* --- end of media queries --- */
